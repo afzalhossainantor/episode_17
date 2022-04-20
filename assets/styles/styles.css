@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'MYRIADPRO-REGULAR';
+    src: url('../fonts/MYRIADPRO-REGULAR.woff');
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+i,
+a,
+span,
+img {
+    display: inline-block;
+
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --myriad_pro: 'MYRIADPRO-REGULAR';
+    --open_sans: 'Open Sans', sans-serif;
+    --oswald: 'Oswald', sans-serif;
+    --white: white;
+    --border: 1px solid red;
+}
+
+/***header part start***/
+
+header {
+
+    background-color: #0872b9;
+    padding: 10px 10px;
+    border: var(--border);
+}
+
+header .head_part {
+
+    border: var(--border);
+}
+
+header .head_part h2 {
+
+    font-size: 14px;
+    line-height: 14px;
+    color: #e7e7e7;
+    font-weight: 400;
+    font-family: var(--open_sans);
+    text-align: center;
+}
+
+header .head_part h2 span {
+
+    margin-left: 20px;
+}
+
+header .header_links {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    border: var(--border);
+}
+
+header .header_links li {
+
+    margin-right: 20px;
+
+}
+
+header .header_links li a i:hover {
+
+    color: #353535;
+}
+
+header .header_links li a {}
+
+header .header_links li a i {
+
+    color: var(--white);
+    transition: .3s;
+}
+
+/***header part end***/
+
+/***nav part  start***/
+
+nav {
+
+    border: var(--border);
+    /* padding: 20px; */
+
+}
+
+nav .logo_img {
+
+    padding: 18px;
+    border: var(--border);
+}
+
+nav .logo_img img {}
+
+nav .nav_body {}
+
+nav .nav_body ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: var(--border);
+}
+
+nav .nav_body ul li {
+
+    margin-right: 15px;
+}
+
+nav .nav_body ul li a {
+
+    font-size: 14px;
+    line-height: 14px;
+    color: #353535;
+    font-family: var(--myriad_pro);
+    text-align: right;
+    transition-duration: .3s;
+}
+
+nav .nav_body ul li a:hover {
+
+    color: #177abd;
+}
+
+
+/***nav part  end***/
+
+/***banner part start***/
+
+#banner {
+
+    background-image: url(../images/banner_img/Beatles.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#banner .banner_content {
+
+
+    text-align: end;
+}
+
+#banner .banner_content h2 {
+
+    padding-bottom: 5px;
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 400;
+    font-family: var(--oswald);
+    /* text-align: right; */
+    text-transform: uppercase;
+}
+
+#banner .banner_content h1 {
+
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: var(--white);
+    font-weight: 700;
+    font-family: var(--oswald);
+    /* text-align: right; */
+    text-transform: uppercase;
+}
+
+#banner .banner_content p {
+
+    padding-bottom: 35px;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--white);
+    font-weight: 400;
+    font-family: var(--open_sans);
+    text-align: right;
+    width: 440px;
+
+}
+
+#banner .banner_content .hire {
+
+    padding: 12px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--oswald);
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    transition-duration: .3s;
+}
+
+#banner .banner_content .contact {
+
+    padding: 12px 20px;
+    border: 1px solid white;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--oswald);
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    transition-duration: .3s;
+}
+
+#banner .banner_content .hire:hover {
+
+    background-color: #0771b9;
+
+}
+
+#banner .banner_content .contact:hover {
+
+    background-color: #0771b9;
+
+}
+
+/***banner part end***/
+
+
+/***common heading part start***/
+
+.common_heading {
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border: var(--border);
+}
+
+.common_heading h2 {
+
+    font-size: 24px;
+
+    line-height: 24px;
+    color: #353535;
+    font-weight: 500;
+    font-family: var(--oswald);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.common_heading h2 span {
+
+    border-bottom: 1px solid #0771b9;
+    padding-bottom: 5px;
+    /* margin-right: 3px; */
+}
+
+/***common heading part end***/
+
+
+/***about part start***/
+
+#about {
+
+    padding-bottom: 40px;
+    border: var(--border);
+}
+
+#about .about_img {
+
+    padding-top: 10px;
+    border: var(--border);
+}
+
+#about .about_img img {}
+
+#about .about_content {
+
+    padding-top: 40px;
+    padding-bottom: 5px;
+    border: var(--border);
+}
+
+#about .about_content .pr_1 {
+
+    font-size: 13px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: var(--open_sans);
+}
+
+#about .about_content .pr_2 {
+
+    font-size: 13px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: var(--open_sans);
+}
+
+
+/***about part end***/
+
+
+/***service part start***/
+
+#service {
+
+    padding-bottom: 25px;
+}
+
+#service .service_body {
+
+    border: var(--border);
+    position: relative;
+  
+}
+
+#service .service_body .border_div{
+
+    /* border: var(--border); */
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+}
+
+#service .service_body .img_part {
+
+    /* position: relative; */
+   
+    padding-bottom: 3px;
+  
+    border: 1px solid #5bc5f3;
+    border-radius: 50%;
+   
+    text-align: center;
+
+}
+
+#service .service_body .img_part img {
+
+    border: var(--border);
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+#service .service_body h2 {
+
+    font-size: 16px;
+    line-height: 16px;
+    color: #353535;
+    font-weight: 500;
+    font-family: var(--oswald);
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 20px;
+}
+
+#service .service_body p {
+
+    font-size: 13px;
+    line-height: 17px;
+    color: #555555;
+    font-weight: 400;
+    font-family: var(--open_sans);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/***service part end***/
