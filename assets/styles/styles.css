@@ -224,6 +224,7 @@ nav .nav_body ul li a:hover {
     font-family: var(--oswald);
     text-align: center;
     text-decoration: none;
+    margin-right: 10px;
     background-color: transparent;
     transition-duration: .3s;
 }
