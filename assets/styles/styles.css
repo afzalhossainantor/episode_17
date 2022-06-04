@@ -58,12 +58,12 @@ header {
 
     background-color: #0872b9;
     padding: 10px 10px;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 header .head_part {
 
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 header .head_part h2 {
@@ -86,7 +86,7 @@ header .header_links {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 header .header_links li {
@@ -100,7 +100,7 @@ header .header_links li a i:hover {
     color: #353535;
 }
 
-header .header_links li a {}
+/* header .header_links li a {} */
 
 header .header_links li a i {
 
@@ -114,7 +114,7 @@ header .header_links li a i {
 
 nav {
 
-    border: var(--border);
+    /* border: var(--border); */
     /* padding: 20px; */
 
 }
@@ -122,19 +122,19 @@ nav {
 nav .logo_img {
 
     padding: 18px;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
-nav .logo_img img {}
+/* nav .logo_img img {} */
 
-nav .nav_body {}
+/* nav .nav_body {} */
 
 nav .nav_body ul {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 nav .nav_body ul li {
@@ -173,7 +173,6 @@ nav .nav_body ul li a:hover {
 }
 
 #banner .banner_content {
-
 
     text-align: end;
 }
@@ -266,7 +265,7 @@ nav .nav_body ul li a:hover {
 
     padding-top: 60px;
     padding-bottom: 40px;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 .common_heading h2 {
@@ -296,13 +295,13 @@ nav .nav_body ul li a:hover {
 #about {
 
     padding-bottom: 40px;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 #about .about_img {
 
     padding-top: 10px;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 #about .about_img img {}
@@ -311,7 +310,7 @@ nav .nav_body ul li a:hover {
 
     padding-top: 40px;
     padding-bottom: 5px;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 #about .about_content .pr_1 {
@@ -345,7 +344,7 @@ nav .nav_body ul li a:hover {
 
 #service .icon_part {
 
-    border: var(--border);
+    /* border: var(--border); */
     position: relative;
     background-color: #f1f1f1;
 
@@ -487,7 +486,7 @@ nav .nav_body ul li a:hover {
 
 #team .team_body {
 
-    border: var(--border);
+    /* border: var(--border); */
     text-align: center;
     background-color: #f1f1f1;
     position: relative;
@@ -596,7 +595,7 @@ nav .nav_body ul li a:hover {
 
 #testimonial .testimonial_body {
 
-    border: var(--border);
+    /* border: var(--border); */
     text-align: center;
 
 }
@@ -608,7 +607,7 @@ nav .nav_body ul li a:hover {
 
 #testimonial .testimonial_body .testim_content {
 
-    border: var(--border);
+    /* border: var(--border); */
     padding-top: 35px;
     background-color: #f1f1f1;
 }
